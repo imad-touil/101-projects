@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--this is my page title that appears on the browser or tab-->
+        <title>Unit Conversions</title>
+        <link rel="stylesheet" href="conversion.css">
+        <script>
+            function addPara() {
+                var newPara = document.createElement("p");
+                var newText = document.createTextNode("Hello world!);");
+                newPara.appendChild(newText);
+                document.body.appendChild(newPara);
+            }
+        </script>
+    </head>
+    <body onload="addPara()">
+        <section id="home">
+            <!-- This is the main heading -->
+            <header><b>Unit Conversions</b></header>
+            <nav>
+                <!--Button for redirectig users to the the temperature suction-->
+                <a href="#temperature">Temperature</a>
+                <!--Button for redirectig users to the the Weight suction-->
+                <a href="#weight">Weight</a>
+                <!--Button for redirectig users to the the Distance suction-->
+                <a href="#distance">Distance</a>
+            </nav>
+        </section>
+        <div id="all-conversion-sections">
+            <!-- this i will have the conversion sections for Temperature -->
+            <section id="temperature">
+                <div id="temp">
+                    <figure>
+                        <img src="/images/conversion/temperature.png" width="200">
+                        <figcaption>
+                            Celecsius to fehrenheit Conversion
+                        </figcaption>
+                    </figure>
+                    <article>
+                        <!--This is contains the specific elements for temperture conversion-->
+                        <fieldset>
+                            <legend>Temperature</legend>
+                            <!--label for temperature input-->
+                            <label for="Temperature">Celecsius</label> <br>
+                            <input type="number" id="c"> <br>
+                            <!--the conversion button-->
+                            <button id="temperature"> Convert </button> <br>
+                            <!--label for temperature output-->
+                            <input type="number" id="f"> <br>
+                            <label for="Temperature">Fehrenheit</label>
+                        </fieldset>
+                    </article>
+                    <aside>
+                        To convert celsuis to fahrenheit yourself, use this formula replacing the `C` with your temperature in celsuis: (C × 9/5) + 32
+                    </aside>
+                </div>
+            </section>
+            <section id="weight">
+                <div id="wgt">
+                    <figure>
+                        <img src="/images/conversion/weight.png" width="200">
+                        <figcaption>Kilograms to Pound Conversion</figcaption>
+                    </figure>
+                    <article>
+                        <!--this is contains the specific elements weight conversion-->
+                        <fieldset>
+                            <legend>Weight</legend>
+                            <label for="Weight">Kilograms</label><br>
+                            <input type="number" id="kg"><br>
+                            <button id="Weight">Convert</button><br>
+                            <input type="number" id="p"><br>
+                            <label for="Weight">Pound</label>
+                        </fieldset>
+                    </article>
+                    <aside>
+                        To convert kilograms to pounds yourself, use this formula replacing the `kg` with your weight in kilograms: kg x 2.205
+                    </aside>
+                </div>
+            </section>
+            <section id="distance">
+                <!-- Distance conversion section -->
+                <div id="dst">
+                    <figure>
+                        <img src="/images/conversion/distance.png" width="200px"/>
+                        <figcaption>Kilometer to Mile Conversion</figcaption>
+                    </figure>
+                    <article>
+                        <!-- This contains the specific elements for distance conversion -->
+                        <fieldset>
+                            <legend>Distance</legend>
+                            <!-- Label for Distance input -->
+                            <label for="Distance">Kilometers</label> <br/>
+                            <input type="number" id="km"> <br/>
+                            <!-- The conversion button -->
+                            <button id="distance"> Convert </button> <br/>
+                            <!-- Label for Distance output -->
+                            <input type="number" id="m"> <br/>
+                            <label for="Distance">Miles</label>
+                        </fieldset>
+                    </article>
+                    <aside>
+                        To convert kilometers to miles yourself, use this formula replacing the `km` with your distance in kilometers: km &divide; 1.609
+                    </aside>
+                </div>
+            </section>
+        </div>
+        <div id="go-home">
+            <a href="#home">
+                <img src="/images/conversion/home.png" width="50" height="50">
+            </a>
+        </div>
+        <footer>
+            &copy; By <b>Touil.div</b>
+            <a href="https://github.com/imad-touil" target="_blank"><img src="/images/conversion/github.png"width="20" height="20"></a>
+            <a href=""><img src="/images/conversion/facebook.png" width="20" height="20"></a>
+            <a href=""><img src="/images/conversion/instagram.png"width="20" height="20"></a>
+            <a href=""><img src="/images/conversion/linkedin.png"width="20" height="20"></a>
+            <a href=""><img src="/images/conversion/twitter.png"width="20" height="20"></a>
+        </footer>
+        <script src="test.js"></script>
+    </body>
+</html>

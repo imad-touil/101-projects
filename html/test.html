@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            background-color: #4c4ab8;
+        }
+
+        #home {
+            display: flex;
+            justify-content: space-between;
+            background-color: #615fb6;
+        }
+
+        a {
+            text-decoration: none;
+            color: #FFFFFF;
+        }
+        
+        a:hover{
+            text-decoration: overline;
+            color: #e24b5f;
+            border-radius: 15px;
+            background-color: #4c4ab8;
+            padding: 5px 10px;
+        }
+
+        header{
+            display: flex;
+            align-items: center;
+            padding-left: 50px;
+            cursor: pointer;
+            color: #e24b5f;
+        }
+
+        ul, li{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-right: 15px;
+            cursor: pointer;
+        }
+    </style>
+    <title>Emad's Services</title>
+    <link rel="icon"  href="/images/portfolio/programmer.png" />
+</head>
+<body>
+    <section id="home">
+        <header>
+            <b>EmaD TouiL</b>
+        </header>
+        <!-- <nav>
+            <a href="#about">About Me</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#recommendations">Recommendations</a>
+        </nav> -->
+        <ul>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#recommendations">Recommendations</a></li>
+        </ul>
+    </section>
+    <div id="all-sections">
+        <section id="about">
+            <figure>
+                <img src="/images/portfolio/programmer.png" alt="">
+                <figcaption>
+                    Full-Stack Developer
+                </figcaption>
+                <article>
+                    <aside>
+                        Seeking a skilled full-stack developer to create efficient,
+                        scalable web applications. Responsibilities include front-end and
+                        back-end development, API integration, and troubleshooting.
+                        Requires proficiency in HTML, CSS, JavaScript, Node.js, and 
+                        databases.
+                        Competitive salary, benefits, and growth opportunities offered.
+                    </aside>
+                </article>
+            </figure>
+        </section>
+        <section id="skills">
+            <div id="html">
+                <figure>
+                    <img src="/images/portfolio/html-5.png" alt="">
+                    <figcaption>HTML5</figcaption>
+                    <aside>
+                        Lorem ipsum dolor sit 
+                        amet consectetur adipisicing elit. Voluptas, vitae?
+                    </aside>
+                </figure>
+            </div>
+            <div id="css">
+                <figure>
+                    <img src="/images/portfolio/css-3.png" alt="">
+                    <figcaption>CSS3</figcaption>
+                    <aside>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </aside>
+                </figure>
+            </div>
+            <div id="js">
+                <figure>
+                    <img src="/images/portfolio/js.png" alt="">
+                    <figcaption>JavaScript</figcaption>
+                    <aside>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam ex inventore rem eveniet fuga voluptatum!</aside>
+                </figure>
+            </div>
+        </section>
+        <section id="projects">
+            <div id="services">
+                <h3>Create professional websites</h3>
+                <figure>
+                    <a><img src="/images/portfolio/ux.png" alt=""></a>
+                    <figcaption>You are in the best place to build your creer</figcaption>
+
+                </figure>
+            </div>
+        </section>
+        <section id="recommendations">
+            <form>
+                <label for="name">Company Name: </label>
+                <input type="text" name="name" id="name"  placeholder="Emad's Services">
+                <br>
+                <label for="email">E-mail: </label>
+                <input type="email" name="email" id="email"> <br>
+                <label for="category">Category: </label>
+                <input type="checkbox" name="category" id="medecal"> <label for="medecal">Medecal</label>
+                <input type="checkbox" name="category" id="e-com"> <label for="e-com">E-Comerce</label>
+                <input type="checkbox" name="category" id="education"> <label for="education">Education</label>
+                <input type="checkbox" name="category" id="other"> <label for="other">Others: </label>
+                <button id="order" onclick="ordern()">ORDER NOW</button>
+            </form>
+        </section>
+    </div>
+    <footer>
+        <aside>&copy;You are in the best place to build your creer</aside>
+        <a href="#">
+            <img src="/images/portfolio/home.png" alt="" style="width: 50px; height: 50px;">
+        </a>
+        <a href="">
+            <img src="/images/conversion/github.png" alt="" style="width: 50px; height: 50px;">
+        </a>
+        <a href="">
+            <img src="/images/conversion/linkedin.png" alt="" style="width: 50px; height: 50px;">
+        </a>
+        <a href="">
+            <img src="/images/conversion/twitter.png" alt="" style="width: 50px; height: 50px;">
+        </a>
+        <a href="">
+            <img src="/images/conversion/instagram.png" alt="" style="width: 50px; height: 50px;">
+        </a>
+    </footer>
+    <script src="/script.js"></script>
+</body>
+</html>

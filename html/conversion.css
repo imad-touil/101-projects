@@ -1,0 +1,10 @@
+body {
+    /* padding: 10px; */
+    background-color: rgb(218, 232, 243);
+}
+
+#home {
+    display: flex;
+    background-color: rgb(60, 141, 207);
+    padding:10px;
+}
