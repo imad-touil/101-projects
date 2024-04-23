@@ -1,0 +1,145 @@
+body{
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    /* font-weight: 100; */
+    font-style: normal;
+}
+.header {
+    background-color: #0171f9;
+    padding: 10px 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo {
+    width: 20%;
+}
+
+.header-link a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 5px 15px;
+    border-radius: 15px;
+}
+
+.header-link a:hover {
+    /* font-weight: bold;
+    text-decoration: overline; */
+    background-color: #4da6ff;
+}
+
+
+
+.landing-page {
+    background-color: #0171f9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 200px;
+    border-radius: 0 0 50px 50px;
+    color: #ffffff;
+}
+
+
+.landing-page-search input {
+    padding: 0 10px;
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+}
+.landing-page-search button {
+    position: absolute;
+    left: 330px;
+    height: 30px;
+}
+.btn {
+    color: #ffffff;
+    background-color: #ff0000;
+    border: none;
+    padding: 5px 15px;
+    border-radius: 15px;
+}
+
+.btn:hover {
+    background-color: #ff4d4d;
+    cursor: pointer;
+}
+
+.landing-page-image-container img {
+    border-radius: 20px;
+    width: 300px;
+}
+
+.landig-page-left-container {
+    max-width: 700px;
+}
+
+.trending-conatiner {
+    padding: 20px 200px;
+}
+
+.ternding-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ternding-header h1 {
+    margin-top: 0;
+}
+
+.trending-conatiner span {
+    color: #ff4d4d;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+}
+
+.card-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 25px;
+}
+
+.card-info img {
+    width: 50px;
+}
+
+.card .themp {
+    width: 250px;
+    border-radius: 20px  20px 0 0;
+}
+.card {
+    width: 250px;
+    border-radius: 20px;
+    background-color: #f1f1f2;
+}
+
+.card:hover {
+    cursor: pointer;
+    transition: 1.5;
+    background-color: #d6d7da;
+}
+
+.trending-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 15px;
+    /* padding: 10px ; */
+    
+}
+
+.contact-container {
+    position: absolute;
+    left:25%;
+    border: 2px solid black;
+    width: 50%;
+    background-color: #d6d7da;
+}
+
+.form {
+    display: flex;
+    justify-content: space-around;
+}
